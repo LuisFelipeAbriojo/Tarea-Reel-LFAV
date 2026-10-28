@@ -1,0 +1,23 @@
+{"titulo": "Flujos de caja en automático",
+ "escenas": [
+  {"frase": "Cada mes copiábamos los movimientos de cada banco a Excel y los separábamos con filtros de texto. En algunas empresas tomaba horas. Así que lo automaticé.",
+   "cifra": "", "etiqueta": "Antes: horas de filtros en Excel"},
+  {"frase": "Primero junté veinticinco mil seiscientos noventa y ocho movimientos que el equipo ya había clasificado en julio y agosto de dos mil veintiséis.",
+   "cifra": "25.698", "etiqueta": "Movimientos históricos para aprender"},
+  {"frase": "Si un concepto ya tuvo siempre la misma categoría, la repite; si no, una regresión logística lee el concepto y propone una.",
+   "cifra": "", "etiqueta": "Memoria + regresión logística"},
+  {"frase": "Lo probé con agosto contra el equipo: acertó el noventa y nueve coma uno por ciento de doce mil seiscientos veintitrés movimientos.",
+   "cifra": "99,1 %", "etiqueta": "Acierto en 12.623 movimientos"},
+  {"frase": "Lo dudoso queda en amarillo: se revisa solo el dos coma cinco por ciento de las filas.",
+   "cifra": "2,5 %", "etiqueta": "Filas que revisa una persona"},
+  {"frase": "Y todo corre dentro del navegador: los libros bancos no salen de tu computadora ni se envían a ningún servidor.",
+   "cifra": "", "etiqueta": "Tus datos no salen de tu computadora"},
+  {"frase": "Si en tu equipo todavía clasifican movimientos a mano, escríbeme y te cuento cómo lo armé.",
+   "cifra": "", "etiqueta": "El código está en GitHub: enlace en mi perfil"}
+ ],
+ "hashtags": ["#Python", "#MachineLearning", "#Finanzas", "#Automatizacion", "#DataScience"],
+ "posts": {
+  "linkedin": "Cada mes, clasificar los movimientos bancarios de cada empresa (depósitos, ITF, pagos a proveedores, transferencias entre compañías) era trabajo manual.\n\nArmé un clasificador con memoria de conceptos y regresión logística, entrenado con 25.698 movimientos ya categorizados. Validado con agosto 2026: 99,1 % de acierto en 12.623 movimientos, y solo se revisa ~2,5 % de las filas. Corre dentro del navegador: los datos no salen de la computadora.\n\nLa voz de este video fue generada con IA a partir de mi voz.",
+  "x": "Automaticé la clasificación de flujos de caja: 99,1 % de acierto en 12.623 movimientos bancarios, y solo ~2,5 % pasa a revisión humana. Corre en el navegador, sin enviar datos.\n\n(Voz generada con IA a partir de mi voz)",
+  "facebook": "¿Clasificar movimientos bancarios a mano cada mes? Lo automaticé con Python y machine learning: acierta 99,1 % y marca en amarillo lo que hay que revisar. Todo corre en tu navegador.\n\n(Voz generada con IA a partir de mi voz)"
+ }}
